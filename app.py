@@ -41,7 +41,7 @@ passenger_count = st.slider('Cantidad de pasajeros', 1, 8, 2)
 #'''
 
 # Se presiona el boton para llamar al api
-if st.button('llamada al boton'):
+if st.button('Predecir el precio'):
 
     params = {
         'key':key,
@@ -64,24 +64,3 @@ if st.button('llamada al boton'):
     response
 
     # print is visible in server output, not in the page
-
-
-
-
-
-url = 'https://taxifare.lewagon.ai/predict_fare/'
-
-if url == 'https://taxifare.lewagon.ai/predict_fare/':
-
-    st.markdown('Maybe you want to use your own API for the prediction, not the one provided by Le Wagon...')
-
-'''
-
-2. Let's build a dictionary containing the parameters for our API...
-
-3. Let's call our API using the `requests` package...
-
-4. Let's retrieve the prediction from the **JSON** returned by the API...
-
-## Finally, we can display the prediction to the user
-'''
