@@ -10,6 +10,8 @@ install_requirements:
 #         HEROKU COMMANDS
 # ----------------------------------
 
+APP_NAME = taxifarewebsitedgiampapa
+
 streamlit:
 	-@streamlit run app.py
 
