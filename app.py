@@ -14,7 +14,6 @@ import requests
 ## Here we would like to add some controllers in order to ask the user to select the parameters of the ride
 #'''
 
-
 # - date and time
 d = st.date_input(
     "Seleccione la fecha",
